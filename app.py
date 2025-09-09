@@ -141,3 +141,7 @@ st.markdown(f"""
 > **{meeting_title}**  
 > **Fecha:** {meeting_date.strftime('%d/%m/%Y')} — **Inicio:** {meeting_start_time.strftime('%H:%M')} — **Total estimado:** {df['Duración (min)'].sum() if not df.empty else 0} min
 """)
+
+streamlit>=1.33
+pandas>=2.0
+plotly>=5.20
